@@ -1,0 +1,17 @@
+<div class="jumbotron text-center">
+  <h1>Salut
+    <%= @user.name %></h1>
+</div>
+
+<div class="jumbotron" style="background-color:#f2e3ae;">
+  <center>
+    <div class="card" style="width:400px" align="center">
+      <img class="card-img-top" src="https://www.w3schools.com/bootstrap4/img_avatar1.png" alt="Card image">
+      <div class="card-body">
+        <h4 class="card-title"><%= @user.name %></h4>
+        <p class="card-text">Votre bio :<br><%= @user.bio %></p>
+        <a href="/" class="btn btn-primary">Retour à l'accueil</a>
+      </div>
+    </div>
+  </center>
+</div>
